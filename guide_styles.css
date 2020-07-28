@@ -38,7 +38,7 @@ body {
 	font: 100%/1.4 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
 	padding: 0;
 	-webkit-text-size-adjust: none;
-	background-image: url("./images/mobile_6.jpg");
+	/* background-image: url("./images/mobile_6.jpg"); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;	
@@ -49,10 +49,7 @@ a {
 	text-decoration: none;
 }
 a:hover, a:focus {
-	/* color: #e51837; */
-	/* color: #8f023c; */
 	color: #0065BF;
-	/* color: orange; */
 }
 a:focus {
 	outline: none;
@@ -60,16 +57,14 @@ a:focus {
 	box-shadow: 0 0 0 4px rgba(229,24,55,.1);
 }
 a[href^="http"]:visited {
-	/* color: #808080; */
 	color: #8f023c;
 }
 a[href^="http"]:visited:hover, a[href^="http"]:visited:focus {
-	/* color: #e51837; */
 	color: #0065BF;
-	/* color: #8f023c; */
 }
 p {
 	margin: 0 0 1em;
+	font-size: 1.5em;
 }
 img, object, video {
 	max-width: 100%;
@@ -128,8 +123,13 @@ input[type=search] {
 }
 
 .brand {
-	padding-right: 1px;
-	/* width: 0.75em; */
+	padding-bottom: 20px;
+    width: 0.72em;
+}
+.title {
+    font-weight: bold;
+	margin-top: 0.2em;
+	/* margin-bottom: 1em; */
 }
 
 /************End Global**************/
@@ -148,7 +148,8 @@ input[type=search] {
 	overflow: hidden;
 }
 div[role=main] {
-	padding-bottom: 1em;
+	/* padding-bottom: 1em; */
+	/* margin-bottom: 20px; */
 }
 
 /*Footer*/
@@ -158,6 +159,7 @@ footer[role=contentinfo] {
 	margin: 0 -1em;
 	position: relative;
 	z-index: 2;
+	font-weight: bold;
 }
 footer[role=contentinfo] > div {
 	max-width: 70em;
@@ -195,7 +197,7 @@ footer[role=contentinfo] img {
 /*End Footer*/
 
 /*Grid*/
-.grid {
+/* .grid {
 	margin: 0 -1em;
 	overflow: hidden;
 }
@@ -226,39 +228,37 @@ footer[role=contentinfo] img {
 .featured:after {
 	content: "*";
 	color: #e51837;
-}
+} */
 
 /*Fluid*/
-.fluid {
+/* .fluid {
 	display: block;
 	margin: 0 auto;
 	max-width: 40em;
-}
+} */
 
 /*Homepage*/
-.home h1 {
+/* .home h1 {
 	margin-bottom: 0.2em;
-	color: #ffffff;
-}
+} */
 .intro {
 	font-size: 1.8em;
 	line-height: 1.2;
 	margin: 0 auto;
-	color: #ffffff;
 }
 .intro a:hover ,.intro a:focus {
 	color: #000;
 	border-bottom-color: #000;
 }
 
-.ani {
+/* .ani {
 	position: relative;
 	height: 15em;
 	margin: 1em 0 0;
 	width: 100%;
 	z-index: 0;
-}
-.ani div {
+} */
+/* .ani div {
 	width: 100%;
 }
 .ani div b {
@@ -269,7 +269,7 @@ footer[role=contentinfo] img {
 	bottom: 5%;
 	left: 5%;
 	background: rgba(229,24,55,0.22);
-}
+} */
 
 /* Button Stlyes */
 .block-btn {
@@ -357,73 +357,6 @@ footer[role=contentinfo] img {
 }
 
 
-
-/*Posts*/
-/* .posts ol > li {
-	padding-bottom: 1em;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 1em;
-	overflow: hidden;
-} 
-.posts h2 {
-	font-size: 1.4em;
-	margin: 0.28em 0 0.1em;
-	font-weight: normal;
-}
-.posts h2 a {
-	color: #000;
-}
-.posts h2 a:hover, .posts h2 a:focus {
-	color: #e51837;
-}
-.permalink {
-	display: block;
-	font-size: 0.8em;
-	margin-bottom: 1.2em;
-}
-.post-body a {
-	border-bottom: 1px solid #ccc;
-}
-.posts blockquote {
-	margin: 0 0 1em;
-	color: #666;
-	border-left: 0.25em solid #ccc;
-	padding-left: 1em;
-}
-.tags {
-	float: left;
-}
-.tags li {
-	display: inline-block;
-	font-size: 0.8em;
-	margin-right: 0.5em;
-} */
-
-/* .posts ol > li .tags a, .permalink {
-	color: #ccc;
-	-webkit-transition: color 0.3s ease-out;  
-     -moz-transition: color 0.3s ease-out;  
-      -ms-transition: color 0.3s ease-out;  
-       -o-transition: color 0.3s ease-out;  
-          transition: color 0.3s ease-out;
-}
-.posts ol > li:hover .tags a, .posts ol > li:hover .permalink {
-	color: #808080;
-} */
-.blog-nav {
-	text-align: center;
-	overflow: hidden;
-	padding: 1em 0;
-}
-.posts .blog-nav a {
-	border: 0;
-}
-.nav-next {
-	float: right;
-}
-.nav-prev {
-	float: left;
-}
 
 /* Sidebar */
 .sidebar {
@@ -572,7 +505,7 @@ footer[role=contentinfo] img {
 		height: 100%;
 		display: table;
 		text-align: center;
-		background-image: url("./images/floridaPier_2.jpg");
+		/* background-image: url("./images/groupOfSeniors_2.jpg"); */
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -643,8 +576,8 @@ footer[role=contentinfo] img {
 	 .intro {
 		display: none;
 	}
-	.home img {
-		width: 0.75em;
-		margin-right:2px;
+	.brand {
+		padding-bottom: 0.2em;
+		width: 0.72em;
 	}
   }
