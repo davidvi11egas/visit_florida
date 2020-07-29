@@ -134,7 +134,7 @@ input[type=search] {
     width: 0.72em;
 }
 .title {
-	/* color: #ffffff; */
+	/* color: #1b92af; */
 	font-weight: bold;
 
 }
@@ -185,6 +185,8 @@ footer[role=contentinfo] .nav a {
 	border-bottom: 1px solid white;
 	padding: 1em;
 	margin: 0 -1em;
+	font-weight: bold;
+	text-decoration: none;
 }
 footer[role=contentinfo] a {
 	display: inline-block;
