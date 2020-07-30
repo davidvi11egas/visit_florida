@@ -10,7 +10,7 @@ html, body, div, object, iframe, fieldset {
 	border: 0;
 } 
 .jumbotron {
-	background-image: url("https://mocah.org/uploads/posts/121143-beach-waves-aerial-view-palm-coast-florida-hd-4k.jpg");
+	background-image: url("https://www.visittheusa.com/sites/default/files/styles/hero_l_x2/public/images/hero_media_image/2016-10/HERO%201_shutterstock_153029399_Web72DPI.jpg?itok=eYuq2_Rg");
 	margin-top: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -52,13 +52,13 @@ a {
 	text-decoration: none;
 }
 a:hover, a:focus {
-	/* color: #8f023c; */
+	color:deepskyblue;
 	/* color: #0065BF; */
 }
 a:focus {
 	outline: none;
-	background-color: rgba(229,24,55,.1);
-	box-shadow: 0 0 0 4px rgba(229,24,55,.1);
+	/* background-color: rgba(46, 145, 184, 0.212);
+	box-shadow: 0 0 0 4px rgba(46, 145, 184, 0.212); */
 }
 a[href^="http"]:visited {
 	color: #808080;
@@ -101,7 +101,7 @@ h1 a, h2 a, h3 a {
 }
 h1 a:hover, h2 a:hover, h3 a:hover {
 	text-decoration: none;
-	color: #8f023c;
+	color: deepskyblue;
 	font-weight: bold;
 }
 blockquote {
@@ -109,9 +109,9 @@ blockquote {
 	padding-left: 1em;
 	margin-left: 1em;
 }
-small {
+/* small {
 	color: #e51837;
-}
+} */
 
 input, textarea {
 	border: 1px solid #000;
@@ -134,13 +134,16 @@ input[type=search] {
     width: 0.72em;
 }
 .title {
-	/* color: #1b92af; */
+	color: #ffffff;
 	font-weight: bold;
 
 }
 
 .card-body {
 	border-radius: 0;
+	background-color: deepskyblue;
+	color: white;
+	font-weight: bold;
 }
 /************End Global**************/
 
@@ -181,7 +184,7 @@ footer[role=contentinfo] p {
 }
 footer[role=contentinfo] .nav a {
 	display: block;
-	color: orange;
+	color: deeppink;
 	border-bottom: 1px solid white;
 	padding: 1em;
 	margin: 0 -1em;
@@ -283,7 +286,7 @@ footer[role=contentinfo] img {
 /* Button Stlyes */
 .block-btn {
 	color: rgb(146, 137, 137);
-	background: #8f023c;
+	/* background: #8f023c; */
 	display: inline-block;
 	margin: 1.5em 0;
 	font-size: 110%;
@@ -399,7 +402,7 @@ footer[role=contentinfo] img {
 		/* vertical-align: middle; */
 	}
 	.home .intro a {
-		color: #8f023c;
+		/* color: #8f023c; */
 		/* color: rgba(255,255,255,0.8); */
 		border-bottom: 1px solid rgba(255,255,255,0.8);
 	}
